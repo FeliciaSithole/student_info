@@ -16,3 +16,8 @@ print(f"Age: {age} years old ({age_in_months} months)")
 
 fav_num = float(input("Enter your favourite number: "))
 print(f"Favourite Number (rounded): {round(fav_num, 2)}")
+
+print("\nData Types:")
+print(f"Name type: {type(name)}")
+print(f"Age type: {type(age)}")
+print(f"Favourite Number type: {type(fav_num)}")
