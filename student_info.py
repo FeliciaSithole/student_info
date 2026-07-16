@@ -10,5 +10,7 @@ print(f"Title Case: {full_name.title()}")
 
 birth_year = input("Enter your birth year: ")
 age = 2026 - int(birth_year)
-print(age)
+
+age_in_months = age * 12
+print(f"Age: {age} years old ({age_in_months} months)")
 
