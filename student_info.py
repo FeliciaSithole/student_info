@@ -14,3 +14,5 @@ age = 2026 - int(birth_year)
 age_in_months = age * 12
 print(f"Age: {age} years old ({age_in_months} months)")
 
+fav_num = float(input("Enter your favourite number: "))
+print(f"Favourite Number (rounded): {round(fav_num, 2)}")
